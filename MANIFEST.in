@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tritorc_custom_fields *.css
+recursive-include tritorc_custom_fields *.csv
+recursive-include tritorc_custom_fields *.html
+recursive-include tritorc_custom_fields *.ico
+recursive-include tritorc_custom_fields *.js
+recursive-include tritorc_custom_fields *.json
+recursive-include tritorc_custom_fields *.md
+recursive-include tritorc_custom_fields *.png
+recursive-include tritorc_custom_fields *.py
+recursive-include tritorc_custom_fields *.svg
+recursive-include tritorc_custom_fields *.txt
+recursive-exclude tritorc_custom_fields *.pyc
